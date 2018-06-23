@@ -8,8 +8,7 @@
     const TYPING_MSG_CONTENT = `
         <div class="dot"></div>
         <div class="dot"></div>
-        <div class="dot"></div>
-    `;
+        <div class="dot"></div>    `;
 
     let msgSendingHandler = null;
 
@@ -85,7 +84,7 @@
 
             sendFriendMsg(message, author) {
                 const content = getRandomMsg(message);
-                const length = content.replace(/<[^>]+>/g,"").length;
+                const length = content.replace(/<[^>]+>/g, "").length;
                 const isImg = /<img[^>]+>/.test(content);
                 const isTyping = length > 5 || isImg;
 
@@ -184,7 +183,7 @@
                 this.hasPrompt = false;
 
                 return delay(200)
-                    // send user msg
+                // send user msg
                     .then(() => this.sendMsg(content, AUTHOR.ME))
                     .then(() => delay(300))
                     // add xianzhe's next dialogs
