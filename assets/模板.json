@@ -1,0 +1,49 @@
+{
+    "fromXianzhe": [
+//      完整模板
+      {
+        "id": "0000",
+        "details": [
+          ["aaaa","bbbb"]
+        ],
+        "responses": [{
+          "content": "aaaa",
+          "nextXianzhe": ["0000"]
+        }, {
+          "content": "aaaa",
+          "nextXianzhe": ["0000"]
+        }],
+        "nextXianzhe": ["0003","0003"]
+      }
+//      简易模板
+      ,{
+        "id": "0000",
+        "details": [
+          ["aaaa","bbbb"]
+        ],
+        "responses": [{
+          "content": "aaaa",
+          "nextXianzhe": ["0000"]
+        }, {
+          "content": "aaaa",
+          "nextXianzhe": ["0000"]
+        }]
+      }
+
+
+
+
+
+
+
+    ]
+}
+
+
+@
+@
+@
+@
+#
+#
+

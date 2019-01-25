@@ -4,16 +4,16 @@
         "details": [
             ["瓜娃子，谁叫你提前跑进来的，人家还没有写完了"]
         ],
-        "responses": [{
-            "content": "....",
-            "nextXianzhe": ["0003"]
-        }, {
-            "content": "你敢骂劳资？",
-            "nextXianzhe": ["0001"]
-        }, {
-            "content": "你才是大傻子",
-            "nextXianzhe": ["0002"]
-        }],
-        "nextUser": ["1000"]
+        "nextXianzhe": ["0001"]
+    },{
+        "id": "0001",
+        "details": [
+            ["瓜娃子1"]
+        ]
+    },{
+        "id": "0002",
+        "details": [
+            ["瓜娃子2"]
+        ]
     }]
 }
