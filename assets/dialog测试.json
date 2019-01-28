@@ -1,0 +1,25 @@
+{
+    "fromXianzhe": [{
+        "id": "0000",
+        "details": [
+            ["瓜娃子，谁叫你提前跑进来的，人家还没有写完了"]
+        ],
+        "responses": [{
+            "content": "aaaa",
+            "nextXianzhe": ["0000"]
+        }, {
+            "content": "aaaa",
+            "nextXianzhe": ["0001"]
+        }]
+    },{
+        "id": "0000",
+        "details": [
+            ["瓜娃子1"]
+        ]
+    }, {
+        "id": "0001",
+        "details": [
+            ["<img src='img/008a.jpg'>"]
+        ]
+    }]
+}
